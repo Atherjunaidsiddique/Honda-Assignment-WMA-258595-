@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 10px 20px;
+    height: 80px;
+}
+
+.logo {
+    font-size: 55px;
+}
+
+
+
+.navbar .logo {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+
+.img {
+    margin-right: 50px;
+
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    background-color: red;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li:hover {
+    color: green;
+}
+
+.dropdown ul li:hover {
+    background-color: green;
+    padding: 20px;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+}
+
+ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    margin-left: -0.9cm;
+    margin-top: 0.55cm;
+    opacity: 0.8;
+}
+
+.dropdown>ul li {
+    display: block;
+
+}
+
+.dropdown>ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    background-color: red;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li:hover {
+    color: green;
+}
+
+.dropdown1 ul li:hover {
+    background-color: green;
+    padding: 20px;
+    color: white;
+
+}
+
+.dropdown1 {
+    display: none;
+}
+
+ul li:hover .dropdown1 {
+    display: block;
+    position: absolute;
+    margin-left: -0.9cm;
+    margin-top: 0.50cm;
+    opacity: 0.8;
+}
+
+.dropdown1>ul li {
+    display: block;
+
+}
+
+.dropdown1>ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    background-color: red;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li:hover {
+    color: green;
+}
+
+.dropdown2 ul li:hover {
+    background-color: green;
+    padding: 20px;
+    color: white;
+}
+
+.dropdown2 {
+    display: none;
+}
+
+ul li:hover .dropdown2 {
+    display: block;
+    position: absolute;
+    margin-left: -0.9cm;
+    margin-top: 0.50cm;
+    opacity: 0.8;
+
+}
+
+.dropdown2>ul li {
+    display: block;
+
+}
+
+.dropdown2>ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* i {
+    color: gray;
+} */
+
+.btn {
+    border: 2px solid rgb(249, 0, 0);
+    padding: 5px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 10px 5px;
+
+    position: relative;
+    bottom: 120px;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.divion>button>a:hover {
+    color: green;
+
+
+}
+
+.btn>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.divion {
+    background-color: gray;
+    /* border: 1px solid black; */
+
+}
+
+.price {
+    margin-left: 230px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    width: 400px;
+}
+
+.divion>h1:hover {
+    color: green;
+  
+}
+
+.divion2 {
+    background-color: gray;
+
+}
+
+.btn1 {
+    border: 2px solid rgb(249, 0, 0);
+    padding: 5px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 10px 5px;
+
+    position: relative;
+    bottom: 120px;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.divion2>button>a:hover {
+    color: green;
+
+
+}
+
+.btn1>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price1 {
+    margin-left: 230px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    width: 400px;
+}
+
+.divion2>h1:hover {
+    color: green;
+}
+
+.mein {
+    position: relative;
+    bottom: 30px;
+    border-top: 2px solid rgb(255, 2, 2);
+}
+
+.last {
+    background-color: gray;
+    position: relative;
+    bottom: 65px;
+    border-top: 2px solid rgb(255, 2, 2);
+}
+
+.btn2 {
+    border: 2px solid rgb(249, 0, 0);
+    padding: 5px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 10px 5px;
+
+    position: relative;
+    bottom: 120px;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.last1>button>a:hover {
+    color: green;
+
+
+}
+
+.btn2>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price2 {
+    margin-left: 230px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    width: 400px;
+}
+
+.last1>h1:hover {
+    color: green;
+}
+
+.botm {
+    background-color: red;
+    height: 110px;
+    width: 100%;
+    position: relative;
+    bottom: 96px;
+   
+}
+
+.botm2 {
+    height: 80px;
+    width: 900px;
+    background-color: transparent;
+    margin-left: 440px;
+}
+
+.icons {
+    height:60px;
+	width:80px;
+	background-color:transparent;
+	float:left;
+	margin-left:10px;
+	text-align:center;
+	line-height:60px;   
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.icons:hover{
+    border-bottom:5px solid #fff;
+}
+
+    
+  
